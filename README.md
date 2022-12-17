@@ -7,6 +7,8 @@ A simple transformer based encoder-decoder architecture is trained to flip the i
 
 - Although it's not very useful to replace torch.fliplr/numpy.fliplr with this torch model :blush: in principle it could be done (at least for shorter sequences). The implications are very interesting: https://karpathy.medium.com/software-2-0-a64152b37c35
 
+- At its core, this task is a form of translation. Understanding this makes it very easy to understand how modern translation models work
+
 ## Interesting things to study:
 - What is the longest possible sequence the transformer can learn to flip? 
 - Include other values besides, 0 and 1.  
